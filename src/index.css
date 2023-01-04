@@ -7,9 +7,9 @@
     @apply inline-block px-5 py-3 rounded-lg focus:outline-none focus:ring focus:ring-offset-2 uppercase tracking-wider font-semibold text-sm sm:text-base;
   }
   .btn-primary {
-    @apply bg-indigo-500 text-white hover:bg-indigo-400 focus:ring-indigo-500 focus:ring-opacity-50 active:bg-indigo-600;
+    @apply bg-red-500 text-white hover:bg-red-400 focus:ring-red-500 focus:ring-opacity-50 active:bg-red-600;
   }
   .btn-secondary {
-    @apply bg-gray-300 text-gray-800 hover:bg-gray-200 focus:ring-gray-300 focus:ring-opacity-50 active:bg-gray-400;
+    @apply bg-green-400 text-green-800 hover:bg-green-200 focus:ring-green-300 focus:ring-opacity-50 active:bg-green-400;
   }
 }

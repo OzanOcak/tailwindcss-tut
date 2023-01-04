@@ -28,9 +28,9 @@ const Hero = () => {
           </p>
           <div className="space-x-2">
             <button className="btn btn-primary shadow-lg transform transition hover:-translate-y-0.5">
-              polar
+              santa
             </button>
-            <button className="btn btn-secondary">santa</button>
+            <button className="btn btn-secondary">wishes</button>
           </div>
         </div>
         <div className="hidden relative lg:block">

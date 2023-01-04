@@ -1,5 +1,6 @@
 import Hero from "./Hero";
 import Santa from "./Santa";
+import santas from "./data/santas.js";
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
           explore.
         </p>
         <div className="mt-6 grid gap-6 lg:grid-cols-2 xl:grid-cols-3">
-          <Santa />
+          {santas.map((santa) => (
+            <Santa santa={santa} key={santa.name} />
+          ))}
         </div>
       </div>
     </div>

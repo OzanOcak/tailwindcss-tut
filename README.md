@@ -42,3 +42,20 @@ we can combose utility in _index.css_
   }
 }
 ```
+
+we can also create our own color variable and define font family in tailwind.config.js
+
+```js
+theme: {
+    extend: {
+      colors: {
+        brand: {
+          light: "#3fbaeb",
+          DEFAULT: "#0fa9e6",
+          dark: "#0c87b8",
+        },
+      },
+      fontFamily: {
+        headline: "Poppins, sans-serif",
+      },
+```
