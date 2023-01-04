@@ -59,3 +59,11 @@ theme: {
         headline: "Poppins, sans-serif",
       },
 ```
+
+lastly for the sake of optimization we can add in tailwind.config.js
+
+```js
+  purge: ["./src/**/*.jsx", "./index.html"],
+```
+
+when we run yarn build, we can see some benefits on css file.
