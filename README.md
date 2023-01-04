@@ -20,3 +20,25 @@ mobile first, maximum with is medium on mobile but sm is breakpoint after sm don
 <div class="max-w-md sm:max-w-xl"></div>
 sm:bg-gray-300  md:bg-green-400 lg:bg-blue-500 xl:bg-red-400 2xl:bg-blue-500
 ```
+
+### @apply :
+
+we can combose utility in _index.css_
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply;
+  }
+  .btn-primary {
+    @apply;
+  }
+  .btn-secondary {
+    @apply;
+  }
+}
+```

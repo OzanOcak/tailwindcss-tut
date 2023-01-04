@@ -26,9 +26,12 @@ function App() {
             harum alias ullam doloremque dicta. Eligendi ad eaque quod
             voluptates omnis expedita.
           </p>
-          <button className="bg-red-500 text-white p-2 rounded-lg mt-3">
-            Take me to polar!
-          </button>
+          <div className="space-x-2">
+            <button className="btn btn-primary shadow-lg transform transition hover:-translate-y-0.5">
+              polar
+            </button>
+            <button className="btn btn-secondary">santa</button>
+          </div>
         </div>
         <div className="hidden relative lg:block">
           <img
